@@ -136,7 +136,7 @@ services:
       - mysql
 
   redis:
-    image: redis:8.2.1
+    image: redis:8.4.0
     container_name: Redis-Server
     restart: unless-stopped
     command:
